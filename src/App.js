@@ -1,24 +1,25 @@
 import React from 'react'
 
 import {
-    Header,
-    Skills,
-    Testimonial,
-    Work,
     About,
     Footer,
+    Work,
+    Testimonial,
+    Skills,
+    Header,
 } from './container'
 import { NavBar } from './components'
+import './App.scss'
 
-function App() {
+const App = () => {
     return (
         <div className='app'>
             <NavBar />
             <Header />
-            <Skills />
-            <Testimonial />
             <About />
             <Work />
+            <Testimonial />
+            <Skills />
             <Footer />
         </div>
     )
